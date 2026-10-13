@@ -1,0 +1,16 @@
+{"generatedAt":"2026-10-11T08:00:00Z",
+"settings":{"name":"فرا","logo":null,"phone":"02112345678","instagram":"ferea.cafe","address":"تهران، خیابان نمونه","workingHours":"هر روز ۸ تا ۲۳","themeColor":"#6e3416"},
+"categories":[
+{"id":1,"title":"اسپرسو","items":[
+{"id":1,"title":"اسپرسو دوبل","description":"دو شات اسپرسوی غلیظ با کِرِمای طلایی","price":95000,"image":null,"thumb":null,"isAvailable":true,"isFeatured":true},
+{"id":2,"title":"کاپوچینو","description":"اسپرسو، شیر بخارداده و فوم ابریشمی","price":160000,"image":null,"thumb":null,"isAvailable":true,"isFeatured":false}]},
+{"id":2,"title":"قهوه دم‌آوری","items":[
+{"id":3,"title":"وی۶۰","description":"قهوه تک‌origin با دم‌آوری قیفی","price":185000,"image":null,"thumb":null,"isAvailable":true,"isFeatured":false}]},
+{"id":3,"title":"ماچا","items":[
+{"id":4,"title":"ماچا لته","description":"ماچای ژاپنی با شیر و کمی عسل","price":185000,"image":null,"thumb":null,"isAvailable":true,"isFeatured":false}]},
+{"id":4,"title":"بدون کافئین","items":[
+{"id":5,"title":"هات چاکلت","description":"شکلات تلخ و شیر داغ","price":170000,"image":null,"thumb":null,"isAvailable":true,"isFeatured":false},
+{"id":6,"title":"چای ماسالا","description":"چای ادویه‌دار با شیر","price":140000,"image":null,"thumb":null,"isAvailable":false,"isFeatured":false}]},
+{"id":5,"title":"شیرینی و نان","items":[
+{"id":7,"title":"کروسان شکلاتی","description":"خمیر هزارلا با مغز شکلات","price":150000,"image":null,"thumb":null,"isAvailable":true,"isFeatured":true},
+{"id":8,"title":"کروسان توت‌ها","description":"کروسان کره‌ای با توت‌های تازه","price":135000,"image":null,"thumb":null,"isAvailable":true,"isFeatured":false}]}]}

@@ -1,0 +1,32 @@
+### WebStorm / VS Code (REST Client). اول login بزن و csrfToken را در متغیر بگذار.
+@host = http://localhost:5173
+@csrf = PASTE_TOKEN_HERE
+
+GET {{host}}/api/health
+
+###
+GET {{host}}/api/public/menu
+
+###
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{"email":"admin@example.com","password":"your-long-password"}
+
+###
+GET {{host}}/api/admin/categories
+
+###
+POST {{host}}/api/admin/categories
+Content-Type: application/json
+X-CSRF-Token: {{csrf}}
+
+{"title":"دسته‌ی تست"}
+
+###
+POST {{host}}/api/admin/items/1
+X-HTTP-Method-Override: PATCH
+Content-Type: application/json
+X-CSRF-Token: {{csrf}}
+
+{"price":99000}

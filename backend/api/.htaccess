@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # همه‌ی درخواست‌ها (حتی به فایل‌های موجود) فقط از طریق index.php
+  RewriteRule ^index\.php$ - [L]
+  RewriteRule ^ index.php [L]
+</IfModule>
+<IfModule mod_headers.c>
+  Header set Cache-Control "no-store"
+</IfModule>

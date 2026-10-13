@@ -1,0 +1,14 @@
+# هیچ اسکریپتی از این پوشه اجرا یا دانلود نشه
+<FilesMatch "(?i)\.(php[0-9]?|phtml|phar|pl|py|cgi|sh)$">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Deny from all
+  </IfModule>
+</FilesMatch>
+Options -ExecCGI -Indexes
+<IfModule mod_headers.c>
+  Header set Cache-Control "public, max-age=31536000, immutable"
+  Header set X-Content-Type-Options "nosniff"
+</IfModule>
